@@ -48,7 +48,7 @@ function Hero() {
       onChange={(isVisible) => setElementVisible(isVisible)}
       minTopValue={500}
     >
-      <div className="wrapper- bg-[#081730] flex items-center justify-between px-20 rounded-b-[5rem] w-full h-[35rem] relative z-[3]">
+      <div className="hero-section wrapper- bg-[#081730] flex items-center justify-between px-20 rounded-b-[5rem] w-full h-[35rem] relative z-[3]">
         {/* left side */}
         <div className="headings w-1/2 flex flex-col items-start justify-center text-5xl leading-snug">
           <span>

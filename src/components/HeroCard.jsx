@@ -2,7 +2,7 @@ import React from "react";
 import { useInView } from "react-intersection-observer";
 import { Button } from "@mui/material";
 import { motion } from "framer-motion";
-import DescriptionIcon from '@mui/icons-material/Description';
+import DescriptionIcon from "@mui/icons-material/Description";
 function HeroCard({
   idx,
   activeIdx,
@@ -22,12 +22,6 @@ function HeroCard({
       scale: 1,
     },
   };
-
-  console.log(
-    `is Active : ${idx} ${activeIdx} ${
-      idx === activeIdx ? "Active" : "not active"
-    }`
-  );
 
   return (
     <motion.div

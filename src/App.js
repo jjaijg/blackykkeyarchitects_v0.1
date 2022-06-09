@@ -4,6 +4,7 @@ import AOS from "aos";
 import "./App.css";
 import "aos/dist/aos.css";
 import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
 import Hero from "./components/Hero";
 import Experience from "./components/Experience";
 import Search from "./components/Search";
@@ -12,6 +13,8 @@ import HeroSection from "./sections/HeroSection";
 import HomeSection from "./sections/HomeSection";
 import ServiceSection from "./sections/ServiceSection";
 import ProjectSection from "./sections/ProjectSection";
+import TeamSection from "./sections/TeamSection";
+import ContactSection from "./sections/ContactSection";
 
 function App() {
   useEffect(() => {
@@ -29,8 +32,11 @@ function App() {
       {/* <Starter /> */}
       <HeroSection />
       <ServiceSection />
-      {/* <ProjectSection /> */}
+      <ProjectSection />
       {/* <HomeSection /> */}
+      <TeamSection />
+      <ContactSection />
+      <Footer />
     </div>
   );
 }

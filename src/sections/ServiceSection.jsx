@@ -61,6 +61,7 @@ const data = [
 function ServiceSection() {
   return (
     <section
+    id="service-section"
       className="relative pt-20 lg:pt-[120px] pb-12 lg:pb-[90px] bg-slate-100"
       style={{
         backgroundColor: "#4158D0",

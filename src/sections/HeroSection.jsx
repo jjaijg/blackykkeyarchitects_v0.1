@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import AOS from "aos";
+// import AOS from "aos";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from "react-responsive-carousel";
 import Hero from "../components/Hero";
@@ -9,11 +9,11 @@ import HomeSection from "./HomeSection";
 function HeroSection() {
   const [activeCard, setActiveCard] = useState(0);
 
-  useEffect(() => {
-    console.log("AOS inited");
-    AOS.init();
-    AOS.refresh();
-  }, [activeCard]);
+  // useEffect(() => {
+  //   console.log("AOS inited");
+  //   AOS.init();
+  //   AOS.refresh();
+  // }, [activeCard]);
 
   const data = [
     {
@@ -41,7 +41,7 @@ function HeroSection() {
     setActiveCard(index);
   };
   return (
-    <section>
+    <section id="hero-section">
       <Carousel
         showThumbs={false}
         infiniteLoop
