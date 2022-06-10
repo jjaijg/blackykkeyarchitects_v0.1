@@ -60,6 +60,20 @@ function Navbar() {
             </Button>
           </Link>
         </div>
+        <div className="underLine2 mr-5 capitalize">
+          <Link
+            to="team-section"
+            spy={true}
+            smooth={true}
+            offset={170}
+            duration={1000}
+          >
+            <Button variant="text" sx={{ color: "white" }}>
+              TEAM
+            </Button>
+          </Link>
+        </div>
+
         <div className="underLine2 mr-5">
           <Link
             to="contact-section"
@@ -69,7 +83,7 @@ function Navbar() {
             duration={1000}
           >
             <Button variant="outlined" color="primary" startIcon={<CallIcon />}>
-              CONTACT
+              GET a quote
             </Button>
           </Link>
         </div>
