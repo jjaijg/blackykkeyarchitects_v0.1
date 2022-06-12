@@ -3,7 +3,7 @@ import logo from "../assets/images/build_logo1.png";
 import Button from "@mui/material/Button";
 import CallIcon from "@mui/icons-material/Call";
 import { Stack } from "@mui/material";
-import { Link, animateScroll as scroll } from "react-scroll";
+import { Link } from "react-scroll";
 import "../styles/components/Navbar.css";
 
 function Navbar() {
